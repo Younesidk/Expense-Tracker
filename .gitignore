@@ -1,0 +1,28 @@
+# .NET build artifacts
+**/bin/
+**/obj/
+
+# User-specific / IDE files
+*.user
+*.suo
+.vs/
+.vscode/
+
+# Frontend dependencies/build outputs
+node_modules/
+dist/
+build/
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
